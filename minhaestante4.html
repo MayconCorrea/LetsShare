@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+	<link rel="stylesheet" href="src/css/minhaestante4.css">
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	    <!-- Required meta tags -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+		<!-- Bootstrap CSS -->
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+		<!-- <link rel="stylesheet" href="src/css/Home_trocalivros.css"> -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<!-- <link rel="stylesheet" href="src/css/casquinha.css"> -->
+
+	<title>Let´s Share - Minha estante</title>
+</head>
+
+<body>
+	<header class="header">
+		<a href="#">Let's Share</a>
+		<nav>
+			<input type="checkbox" id="menuToggle">
+			<label for="menuToggle" class="menu-icon">
+				<i class="fa fa-bars"></i>
+				<i class="fa fa-times-circle"></i>
+			</label>
+			<ul class="menu">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="minhaestante4.html">Minhas estante</a></li>
+				<li><a href="quemsomos.html">Quem somos</a></li>
+
+				<li><a href="https://api.whatsapp.com/send?phone=5531987505298">Fale conosco</a></li>
+
+				<li><a href="/Login.html">Login</a></li>
+				<li><a href="/Login.html">Cadastre-se</a></li>
+
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="row">
+			<section class="content">
+				<h1>Minha estante</h1>
+				<div class="col-md-8 col-md-offset-2">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<div class="pull-right">
+								<div class="btn-group">
+									<button type="button" class="btn btn-primary btn-filter"
+										data-target="meuslivros">Meus livros</button>
+									<button type="button" class="btn btn-success btn-filter"
+										data-target="Lidos">Lidos</button>
+									<button type="button" class="btn btn-warning btn-filter"
+										data-target="Quero ler">Quero ler</button>
+									<button type="button" class="btn btn-danger btn-filter"
+										data-target="doacao">Doação</button>
+									<button type="button" class="btn btn-default btn-filter"
+										data-target="all">Todos</button>
+								</div>
+							</div>
+							<div class="table-container">
+								<table class="table table-filter">
+									<tbody>
+										<tr data-status="Lidos">
+											<td>
+												<div class="ckbox">
+													<input type="checkbox" id="checkbox1">
+													<label for="checkbox1"></label>
+												</div>
+											</td>
+											<td>
+												<a href="javascript:;" class="star">
+													<i class="glyphicon glyphicon-star"></i>
+												</a>
+											</td>
+											<td>
+												<div class="media">
+													<!-- <a href="#" class="pull-left">
+													<img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+												</a> -->
+													<div class="media-body">
+														<!-- <span class="media-meta pull-right">Febrero 13, 2016</span> -->
+														<h4 class="title">
+															A Book Dragon
+															<span class="pull-right lidos">(Lidos)</span>
+														</h4>
+														<p class="summary">Donn Kushner</p>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr data-status="meuslivros">
+											<td>
+												<div class="ckbox">
+													<input type="checkbox" id="checkbox1">
+													<label for="checkbox1"></label>
+												</div>
+											</td>
+											<td>
+												<a href="javascript:;" class="star">
+													<i class="glyphicon glyphicon-star"></i>
+												</a>
+											</td>
+											<td>
+												<div class="media">
+													<!-- <a href="#" class="pull-left">
+														<img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg"
+															class="media-photo">
+													</a> -->
+													<div class="media-body">
+														<!-- <span class="media-meta pull-right">Febrero 13, 2016</span> -->
+														<h4 class="title">
+															O Pequeno Príncipe
+															<span class="pull-right meuslivros">(Meus livros)</span>
+														</h4>
+														<p class="summary">Antoine de Sant-Exupéry</p>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr data-status="Quero ler">
+											<td>
+												<div class="ckbox">
+													<input type="checkbox" id="checkbox3">
+													<label for="checkbox3"></label>
+												</div>
+											</td>
+											<td>
+												<a href="javascript:;" class="star">
+													<i class="glyphicon glyphicon-star"></i>
+												</a>
+											</td>
+											<td>
+												<div class="media">
+													<!-- <a href="#" class="pull-left">
+													<img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+												</a> -->
+													<div class="media-body">
+														<span class="media-meta pull-right"><a
+																href="https://api.whatsapp.com/send?phone=5531992596959"
+																target="_blank"><svg class="whatsapp"
+																	xmlns="http://www.w3.org/2000/svg" width="30"
+																	height="30" viewBox="0 0 39 39">
+																	<path fill="#00E676"
+																		d="M10.7 32.8l.6.3c2.5 1.5 5.3 2.2 8.1 2.2 8.8 0 16-7.2 16-16 0-4.2-1.7-8.3-4.7-11.3s-7-4.7-11.3-4.7c-8.8 0-16 7.2-15.9 16.1 0 3 .9 5.9 2.4 8.4l.4.6-1.6 5.9 6-1.5z">
+																	</path>
+																	<path fill="#FFF"
+																		d="M32.4 6.4C29 2.9 24.3 1 19.5 1 9.3 1 1.1 9.3 1.2 19.4c0 3.2.9 6.3 2.4 9.1L1 38l9.7-2.5c2.7 1.5 5.7 2.2 8.7 2.2 10.1 0 18.3-8.3 18.3-18.4 0-4.9-1.9-9.5-5.3-12.9zM19.5 34.6c-2.7 0-5.4-.7-7.7-2.1l-.6-.3-5.8 1.5L6.9 28l-.4-.6c-4.4-7.1-2.3-16.5 4.9-20.9s16.5-2.3 20.9 4.9 2.3 16.5-4.9 20.9c-2.3 1.5-5.1 2.3-7.9 2.3zm8.8-11.1l-1.1-.5s-1.6-.7-2.6-1.2c-.1 0-.2-.1-.3-.1-.3 0-.5.1-.7.2 0 0-.1.1-1.5 1.7-.1.2-.3.3-.5.3h-.1c-.1 0-.3-.1-.4-.2l-.5-.2c-1.1-.5-2.1-1.1-2.9-1.9-.2-.2-.5-.4-.7-.6-.7-.7-1.4-1.5-1.9-2.4l-.1-.2c-.1-.1-.1-.2-.2-.4 0-.2 0-.4.1-.5 0 0 .4-.5.7-.8.2-.2.3-.5.5-.7.2-.3.3-.7.2-1-.1-.5-1.3-3.2-1.6-3.8-.2-.3-.4-.4-.7-.5h-1.1c-.2 0-.4.1-.6.1l-.1.1c-.2.1-.4.3-.6.4-.2.2-.3.4-.5.6-.7.9-1.1 2-1.1 3.1 0 .8.2 1.6.5 2.3l.1.3c.9 1.9 2.1 3.6 3.7 5.1l.4.4c.3.3.6.5.8.8 2.1 1.8 4.5 3.1 7.2 3.8.3.1.7.1 1 .2h1c.5 0 1.1-.2 1.5-.4.3-.2.5-.2.7-.4l.2-.2c.2-.2.4-.3.6-.5s.4-.4.5-.6c.2-.4.3-.9.4-1.4v-.7s-.1-.1-.3-.2z">
+																	</path>
+																</svg></a></span>
+														<h4 class="title">
+															A Garota do Lago
+															<span class="pull-right Queroler">(Quero ler)</span>
+														</h4>
+														<p class="summary">Donlea,Charlie</p>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr data-status="doacao">
+											<td>
+												<div class="ckbox">
+													<input type="checkbox" id="checkbox2">
+													<label for="checkbox2"></label>
+												</div>
+											</td>
+											<td>
+												<a href="javascript:;" class="star">
+													<i class="glyphicon glyphicon-star"></i>
+												</a>
+											</td>
+											<td>
+												<div class="media">
+													<!-- <a href="#" class="pull-left">
+													<img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+												</a> -->
+													<div class="media-body">
+														<!-- <span class="media-meta pull-right">Febrero 13, 2016</span> -->
+														<h4 class="title">
+															O Milagre Da Manhã
+															<span class="pull-right doacao">(Doação)</span>
+														</h4>
+														<p class="summary">Elrod,Hal</p>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr data-status="Lidos" class="selected">
+											<td>
+												<div class="ckbox">
+													<input type="checkbox" id="checkbox4" checked>
+													<label for="checkbox4"></label>
+												</div>
+											</td>
+											<td>
+												<a href="javascript:;" class="star star-checked">
+													<i class="glyphicon glyphicon-star"></i>
+												</a>
+											</td>
+											<td>
+												<div class="media">
+													<!-- <a href="#" class="pull-left">
+														<img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg"
+															class="media-photo">
+													</a> -->
+													<div class="media-body">
+														<!-- <span class="media-meta pull-right">Febrero 13, 2016</span> -->
+														<h4 class="title">
+															Pai Rico, Pai Pobre - Edição de 20 Anos
+															<span class="pull-right lidos">(Lidos)</span>
+															<!-- <span class="pull-right Lidos">(Lidos)</span> -->
+														</h4>
+														<p class="summary">Kiyosaki,Robert T.</p>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr data-status="Quero ler">
+											<td>
+												<div class="ckbox">
+													<input type="checkbox" id="checkbox5">
+													<label for="checkbox5"></label>
+												</div>
+											</td>
+											<td>
+												<a href="javascript:;" class="star">
+													<i class="glyphicon glyphicon-star"></i>
+												</a>
+											</td>
+											<td>
+												<div class="media">
+													<!-- <a href="#" class="pull-left">
+														<img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg"
+															class="media-photo">
+													</a> -->
+													<div class="media-body">
+														<!-- <span class="media-meta pull-right">Febrero 13, 2016</span> -->
+														<span class="media-meta pull-right"><a
+																href="https://api.whatsapp.com/send?phone=5531987505298"
+																target="_blank"><svg class="whatsapp"
+																	xmlns="http://www.w3.org/2000/svg" width="30"
+																	height="30" viewBox="0 0 39 39">
+																	<path fill="#00E676"
+																		d="M10.7 32.8l.6.3c2.5 1.5 5.3 2.2 8.1 2.2 8.8 0 16-7.2 16-16 0-4.2-1.7-8.3-4.7-11.3s-7-4.7-11.3-4.7c-8.8 0-16 7.2-15.9 16.1 0 3 .9 5.9 2.4 8.4l.4.6-1.6 5.9 6-1.5z">
+																	</path>
+																	<path fill="#FFF"
+																		d="M32.4 6.4C29 2.9 24.3 1 19.5 1 9.3 1 1.1 9.3 1.2 19.4c0 3.2.9 6.3 2.4 9.1L1 38l9.7-2.5c2.7 1.5 5.7 2.2 8.7 2.2 10.1 0 18.3-8.3 18.3-18.4 0-4.9-1.9-9.5-5.3-12.9zM19.5 34.6c-2.7 0-5.4-.7-7.7-2.1l-.6-.3-5.8 1.5L6.9 28l-.4-.6c-4.4-7.1-2.3-16.5 4.9-20.9s16.5-2.3 20.9 4.9 2.3 16.5-4.9 20.9c-2.3 1.5-5.1 2.3-7.9 2.3zm8.8-11.1l-1.1-.5s-1.6-.7-2.6-1.2c-.1 0-.2-.1-.3-.1-.3 0-.5.1-.7.2 0 0-.1.1-1.5 1.7-.1.2-.3.3-.5.3h-.1c-.1 0-.3-.1-.4-.2l-.5-.2c-1.1-.5-2.1-1.1-2.9-1.9-.2-.2-.5-.4-.7-.6-.7-.7-1.4-1.5-1.9-2.4l-.1-.2c-.1-.1-.1-.2-.2-.4 0-.2 0-.4.1-.5 0 0 .4-.5.7-.8.2-.2.3-.5.5-.7.2-.3.3-.7.2-1-.1-.5-1.3-3.2-1.6-3.8-.2-.3-.4-.4-.7-.5h-1.1c-.2 0-.4.1-.6.1l-.1.1c-.2.1-.4.3-.6.4-.2.2-.3.4-.5.6-.7.9-1.1 2-1.1 3.1 0 .8.2 1.6.5 2.3l.1.3c.9 1.9 2.1 3.6 3.7 5.1l.4.4c.3.3.6.5.8.8 2.1 1.8 4.5 3.1 7.2 3.8.3.1.7.1 1 .2h1c.5 0 1.1-.2 1.5-.4.3-.2.5-.2.7-.4l.2-.2c.2-.2.4-.3.6-.5s.4-.4.5-.6c.2-.4.3-.9.4-1.4v-.7s-.1-.1-.3-.2z">
+																	</path>
+																</svg></a></span>
+														<h4 class="title">O Milagre Da Manhã<span class="pull-right Queroler">(Quero ler)</span>
+														</h4>
+														<p class="summary">Elrod,Hal</p>
+													</div>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="content-footer">
+						<p>
+							Biblioteca Let´s Share <br>
+							Criado por <a href="./index.html" target="_blank">Filhos da PUC - LET´S SHARE</a>
+						</p>
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</div>
+	<script src="src/js/minhaestante4.js" type="text/javascript"></script>
+
+</body>
+
+</html>

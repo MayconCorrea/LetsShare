@@ -1,0 +1,414 @@
+/*    --------------------------------------------------
+	:: General
+	-------------------------------------------------- */
+    body {
+        font-family: 'Open Sans', sans-serif;
+        color: #353535;
+    }
+    .content h1 {
+        text-align: center;
+    }
+    .content .content-footer p {
+        color: #6d6d6d;
+        font-size: 12px;
+        text-align: center;
+    }
+    .content .content-footer p a {
+        color: inherit;
+        font-weight: bold;
+    }
+    
+    /*	--------------------------------------------------
+        :: Table Filter
+        -------------------------------------------------- */
+    .panel {
+        border: 1px solid #ddd;
+        background-color: #fcfcfc;
+    }
+    .panel .btn-group {
+        margin: 15px 0 30px;
+    }
+    .panel .btn-group .btn {
+        transition: background-color .3s ease;
+    }
+    .table-filter {
+        background-color: #fff;
+        border-bottom: 1px solid #eee;
+    }
+    .table-filter tbody tr:hover {
+        cursor: pointer;
+        background-color: #eee;
+    }
+    .table-filter tbody tr td {
+        padding: 10px;
+        vertical-align: middle;
+        border-top-color: #eee;
+    }
+    .table-filter tbody tr.selected td {
+        background-color: #eee;
+    }
+    .table-filter tr td:first-child {
+        width: 38px;
+    }
+    .table-filter tr td:nth-child(2) {
+        width: 35px;
+    }
+    .ckbox {
+        position: relative;
+    }
+    .ckbox input[type="checkbox"] {
+        opacity: 0;
+    }
+    .ckbox label {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .ckbox label:before {
+        content: '';
+        top: 1px;
+        left: 0;
+        width: 18px;
+        height: 18px;
+        display: block;
+        position: absolute;
+        border-radius: 2px;
+        border: 1px solid #bbb;
+        background-color: #fff;
+    }
+    .ckbox input[type="checkbox"]:checked + label:before {
+        border-color: #2BBCDE;
+        background-color: #2BBCDE;
+    }
+    .ckbox input[type="checkbox"]:checked + label:after {
+        top: 3px;
+        left: 3.5px;
+        content: '\e013';
+        color: #fff;
+        font-size: 11px;
+        font-family: 'Glyphicons Halflings';
+        position: absolute;
+    }
+    .table-filter .star {
+        color: #ccc;
+        text-align: center;
+        display: block;
+    }
+    .table-filter .star.star-checked {
+        color: #F0AD4E;
+    }
+    .table-filter .star:hover {
+        color: #ccc;
+    }
+    .table-filter .star.star-checked:hover {
+        color: #F0AD4E;
+    }
+    .table-filter .media-photo {
+        width: 35px;
+    }
+    .table-filter .media-body {
+        display: block;
+        /* Had to use this style to force the div to expand (wasn't necessary with my bootstrap version 3.3.6) */
+    }
+    .table-filter .media-meta {
+        font-size: 11px;
+        color: #999;
+    }
+    .table-filter .media .title {
+        color: #2BBCDE;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: normal;
+        margin: 0;
+    }
+    .table-filter .media .title span {
+        font-size: .8em;
+        margin-right: 20px;
+    }
+    .table-filter .media .title span.lidos {
+        color: #5cb85c;
+    }
+    .table-filter .media .title span.Queroler {
+        color: #f0ad4e;
+    }
+    .table-filter .media .title span.doacao {
+        color: #d9534f;
+    }
+    .table-filter .media .title span.meuslivros {
+        color: #2BBCDE;
+    }
+    .table-filter .media .summary {
+        font-size: 14px;
+    }
+
+    /*css troca livros*/
+    html,body{
+        height: 100%;
+      }
+      
+      body,
+      ul,
+      li,
+      p {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        font-size: 1.92rem;
+        font-family: Arial;
+      }
+      
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      
+      .saibamais {
+        text-decoration: none;
+        color: rgb(11, 100, 70);
+      }
+      
+      h1 {
+        font-size: 120%;
+        text-align: center;
+        margin-top: 100px;
+      }
+      
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      
+      .header {
+        background: #727272;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+      
+      .footer {
+        background: #727272;
+        color: white;
+        font-size: 0.8em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        margin-top: 50px;
+      }
+      
+      .menu {
+        display: flex;
+      }
+      
+      .menu li {
+        margin-left: 10px;
+      }
+      
+      .menu li a {
+        display: block;
+        padding: 10px;
+      }
+      
+      #menuToggle {
+        display: none;
+      }
+      .menu-icon {
+        display: none;
+      }
+      
+      /* Menu Mobile */
+      
+      @media screen and (max-width: 768px) {
+      
+        .header{
+          position: fixed;
+          top: 0px;
+          width: 100%;
+        }
+        .header nav {
+          display: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .menu {
+            display: flex;
+            position: fixed;
+            flex-wrap: wrap;
+            align-content: center;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 0%;
+            background-color: rgba(0, 0, 0, 0.7);
+            overflow: hidden;
+            -webkit-transition: height 0.3s;
+            -moz-transition: height 0.3s;
+            -ms-transition: height 0.3s;
+            -o-transition: height 0.3s;
+            transition: height 0.3s;
+        }
+      
+        .menu li {
+          display: block;
+          width: 100%;
+          margin-left: 0px;
+          margin-bottom: 20px;
+        }
+      
+        .menu li a {
+            display: block;
+            text-align: center;
+            width: 100%;
+      
+        }
+        .menu-icon {
+            width: 50px;
+            height: inherit;
+            display: block;
+            position: absolute;
+            top: 15px;
+            right: 30px;
+            line-height: 60px;
+            color: white;
+            z-index: 999;
+        }
+        #menuToggle:checked ~ label i:nth-child(2) {
+          display: block;
+        }
+        #menuToggle:checked ~ label i:first-child {
+          display: none;
+        }
+        #menuToggle:not(:checked) ~ label i:first-child {
+          display: block;
+        }
+        #menuToggle:not(:checked) ~ label i:nth-child(2) {
+          display: none;
+        }
+      
+        #menuToggle:checked ~ ul {
+            height: 100%;
+        }
+        .menu-icon i {
+            font-size: 1.7em;
+        }
+      }
+      
+      /* CSS FLEXBOX 1 */
+      
+      .flex {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      
+      .flex > div {
+        flex: 1 1 200px;
+        margin: 10px;
+      }
+      
+      /* CSS GRID 1 */
+      
+      .grid1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 800px;
+        padding: 10px;
+        margin: 0 auto;
+        grid-gap: 20px;
+      }
+      
+      .grid1 > div:nth-child(n + 4) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        align-items: center;
+      }
+      
+      .grid1 > div.anuncio {
+        grid-column: 3;
+        grid-row: 2 / 5;
+        display: block;
+      }
+      
+      @media (max-width: 600px) {
+        .grid1 {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .grid1 > div:nth-child(n + 4) {
+          display: block;
+        }
+        .grid1 > div.anuncio {
+          grid-column: auto;
+          grid-row: auto;
+          order: -1;
+        }
+      }
+      
+      /* CSS Grid 2 */
+      
+      .grid2 {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        grid-gap: 20px;
+        max-width: 800px;
+        padding: 10px;
+        margin: 0 auto;
+      }
+      
+      .sidebar > div {
+        margin-bottom: 10px;
+      }
+      
+      @media (max-width: 600px) {
+        .grid2 {
+          grid-template-columns: 1fr;
+        }
+        .sidebar {
+          display: flex;
+          overflow: scroll;
+        }
+        .sidebar > div {
+          flex: 1 0 200px;
+          margin: 0 10px;
+        }
+      }
+      
+      /* SECTION GRID 3 */
+      
+      .grid3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 10px;
+      }
+      
+      .grid3-item:nth-child(1) {
+        grid-row: 1 / 3;
+      }
+      
+      .grid3-item {
+        display: grid;
+      }
+      
+      .grid3-item img {
+        grid-column: 1;
+        grid-row: 1/3;
+        align-self: end;
+      }
+      
+      .grid3-item p {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        color: white;
+        grid-column: 1;
+        grid-row: 2;
+        align-self: end;
+      }
+      
