@@ -24,10 +24,11 @@
   ],
   "livros": [
     {
+      "id_status": 1,
       "ISBN": "0771595158",
       "title": "A Book Dragon",
       "description": "Nonesuch, the last in a line of dragons, uses his unique ability to change in size to survive for six centuries, during which time he observes such different humans as a medieval monk, an eighteenth-century London chemist, and a modern American bookseller.",
-      "authors":["Donn Kushner"],
+      "authors":"Donn Kushner",
       "publishedDate": "1987-01-01",
       "pageCount": 197,
       "capalivro": "https://books.google.com.br/books/content?id=xdSgWKtN3UQC&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U1J4Y8LMKysUIKMwHJCpRczb1hWCA&w=1280",
@@ -36,10 +37,11 @@
       "celular": "5531987505298"
     },
     {
+      "id_status": 1,
       "ISBN": "9786555790405",
       "title": "O Pequeno Príncipe",
       "description": "Se você é uma daquelas pessoas que, ao olhar para o céu, se pergunta se uma ovelha em um determinado asteroide comeu uma determinada flor, ou se você já conhece o sábio segredo da raposa: \"Tudo o que é essencial é invisível aos olhos\", deve pensar que não há mais nada a conhecer sobre esse clássico da Literatura Infantil. Ledo engano. Essa edição traz muito mais da flor vaidosa, do principezinho sábio e do asteroide B-612. Você encontrará curiosidades divertidas sobre a história e os personagens, sobre Exupéry e seu processo criativo, inspirações, influências, e ainda poderá colorir do jeito que quiser as ilustrações originais, criadas pelo autor. Para você que ainda não se permitiu pegar carona em uma migração de pássaros selvagens, além dos extras que essa edição traz, há mais um motivo para embarcar nessa: é simplesmente irresistível.",
-      "authors": ["Antoine de Sant-Exupéry"],
+      "authors": "Antoine de Sant-Exupéry",
       "publishedDate": "1987-01-01",
       "pageCount": 200,
       "capalivro": "https://books.google.com.br/books/publisher/content?id=Unw5EAAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U0HdhjaywXxKTDgvm0jbfEHt9pIng&w=1280",
@@ -48,10 +50,11 @@
       "celular": "5531987505298"
     },
     {
+      "id_status": 1,
       "ISBN": "9788562409882",
       "title": "A Garota do Lago",
       "description": "Summit Lake, uma pequena cidade entre montanhas, é esse tipo de lugar, bucólico e com encantadoras casas dispostas à beira de um longo trecho de água intocada. Duas semanas atrás, a estudante de direito Becca Eckersley foi brutalmente assassinada em uma dessas casas. Filha de um poderoso advogado, Becca estava no auge de sua vida. Atraída Instintivamente pela notícia, a repórter Kelsey Castle vai até a cidade para investigar o caso. ...E Logo Se Estabelece Uma Conexão Íntima Quando Um Vivo Caminha Nas Mesmas Pegadas Dos Mortos...E enquanto descobre sobre as amizades de Becca, sua vida amorosa e os segredos que ela guardava, a repórter fica cada vez mais convencida de que a verdade sobre o que aconteceu com Becca pode ser a chave para superar as marcas sombrias de seu próprio passado.",
-      "authors": ["Donlea,Charlie"],
+      "authors": "Donlea,Charlie",
       "publishedDate": "1987-01-01",
       "pageCount": 296,
       "capalivro": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12109069/1006574337.jpg?v=637142248039070000",
@@ -60,10 +63,11 @@
       "celular": "5531987505298"
     },
     {
+      "id_status": 1,
       "ISBN": "9788576849940",
       "title": "O Milagre Da Manhã",
       "description": "Conheça o método simples e eficaz que vai proporcionar a vida dos sonhos — antes das 8 horas da manhã! Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional. A mudança de hábitos e a nova rotina matinal proposta por Hal vai proporcionar melhorias significativas na saúde, na felicidade, nos relacionamentos, nas finanças, na espiritualidade ou quaisquer outras áreas que necessitem ser aprimoradas.",
-      "authors": ["Elrod,Hal"],
+      "authors": "Elrod,Hal",
       "publishedDate": "1987-01-01",
       "pageCount": 196,
       "capalivro": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12107927/1008997059.jpg?v=637142244051200000",
@@ -72,10 +76,11 @@
       "celular": "5531987505298"
     },
     {
+      "id_status": 1,
       "ISBN": "9788550801483",
       "title": "Pai Rico, Pai Pobre - Edição de 20 Anos",
       "description": "Celebrando 20 anos como o livro n° 1 em finanças pessoais. A escola prepara as crianças para o mundo real? Essa é a primeira pergunta com a qual o leitor se depara neste livro. O recado é ousado e direto: boa formação e notas altas não bastam para assegurar o sucesso de alguém. O mundo mudou; a maioria dos jovens tem cartão de crédito, antes mesmo de concluir os estudos, e nunca teve aula sobre dinheiro, investimentos, juros etc. Ou seja, eles vão para a escola, mas continuam financeiramente improficientes, despreparados para enfrentar um mundo que valoriza mais as despesas do que a poupança. Para o autor, o conselho mais perigoso que se pode dar a um jovem nos dias de hoje é: “Vá para a escola, tire notas altas e depoisprocure um trabalho seguro.” O fato é que agora as regras são outras, e não existe mais emprego garantido para ninguém. Pai Rico, Pai Pobre demonstra que a questão não é ser empregado ou empregador, mas ter o controle do próprio destino ou delegá-lo a alguém. É essa a tese de Robert Kiyosaki neste livro substancial e visionário. Para ele, a formação proporcionada pelo sistema educacional não prepara os jovens para o mundo que encontrarão depois de formados. E como os pais podem ensinar aos filhos o que a escola relega? Essa é outra das muitas perguntas que o leitor encontra em Pai Rico, Pai Pobre. Nesse sentido, a proposta do autor é facilitar a tarefa dos pais. Quem entende de contabilidade deve esquecer seus conhecimentos acadêmicos, pois muitas das teorias expostas por Robert Kiyosaki contrariam os princípios contábeis comumente aceitos, e apresentam uma valiosa e moderna percepção do modo como se realizam os investimentos. A sociedade sofre mudanças radicais e, talvez, de proporções maiores do que as ocorridas em séculos passados. Não existe bola de cristal, mas algo é certo: a perspectiva global de transformações transcende nossa realidade imediata. Aconteça o que acontecer, só existem duas alternativas: segurança ou independência financeira. E o objetivo de Pai Rico, Pai Pobre é instruir o leitor e despertar sua inteligência financeira e a de seus filhos. “A principal razão pela qual as pessoas têm problemas financeiros é que passaram anos na escola, mas não aprenderam nada sobre dinheiro. O resultado é que elas aprendem a trabalhar por dinheiro… mas nunca a fazê-lo trabalhar para elas.” — Robert Kiyosaki",
-      "authors": ["Kiyosaki,Robert T."],
+      "authors": "Kiyosaki,Robert T.",
       "publishedDate": "1987-01-01",
       "pageCount": 336,
       "capalivro": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12710209/1010071147.jpg?v=637154380982930000",
@@ -84,10 +89,63 @@
       "celular": "5531987505298"
     },
     {
+      "id_status": 1,
+      "ISBN": "9788599296363",
+      "title": "A Cabana",
+      "description": "Durante uma viagem de fim de semana, a filha mais nova de Mack Allen Phillips é raptada e evidências de que ela foi brutalmente assassinada são encontradas numa velha cabana.Após quatro anos vivendo numa tristeza profunda causada pela culpa e pela saudade da menina, Mack recebe um estranho bilhete, aparentemente escrito por Deus, convidando-o a voltar à cabana onde acontecera a tragédia.Apesar de desconfiado, ele vai ao local numa tarde de inverno e adentra passo a passo o cenário de seu mais terrível pesadelo. Mas o que ele encontra lá muda o seu destino para sempre.Em um mundo cruel e injusto, A cabana levanta um questionamento atemporal: se Deus é tão poderoso, por que não faz nada para amenizar nosso sofrimento?As respostas que Mack encontra vão surpreender você e podem transformar sua vida de maneira tão profunda quanto transformaram a dele. Você vai querer partilhar esse livro com todas as pessoas que ama.Essa edição especial inclui um texto inédito do autor, relembrando os 10 anos de sucesso que marcaram a trajetória do livro e contando detalhes da gravação do filme. Além disso, traz um caderno de fotos com cenas da adaptação desta emocionante história para as telas do cinema.",
+      "authors": "William P. Young",
+      "publishedDate": "1987-01-01",
+      "pageCount": 196,
+      "capalivro": "https://leitura.com.br/image/cache/products/9788599296363-500x500.jpg",
+      "categoria": "1",
+      "email": "mdctuning@gmail.com",
+      "celular": "5531987505298"
+    },
+    {
+      "status": "Quero ler",
+      "ISBN": "9788576849940",
+      "title": "Orgulho e preconceito",
+      "description": "Uma história de amor improvável em uma época em que sentimentos poderiam não ser suficientes, Orgulho e Preconceito é um dos maiores cânones da literatura mundial e principal obra de Jane Austen.",
+      "authors": "Jane Austen",
+      "publishedDate": "1987-01-01",
+      "pageCount": 196,
+      "capalivro": "https://leitura.com.br/image/cache/products/9788503013734-500x500.jpg",
+      "categoria": "1",
+      "email": "mdctuning@gmail.com",
+      "celular": "5531987505297"
+    },
+    {
+      "id_status": 1,
+      "ISBN": "9788576849940",
+      "title": "A química dos bolos",
+      "description": "Uma das grandes expoentes da confeitaria ensina truques para bolos deliciosos com ingredientes e sabores brasileiros. É difícil (para não dizer impossível!) encontrar uma pessoa que não se derreta com um bolo recém-saído do forno ? pense num de fubá, ainda quentinho, recebendo uma chuva de açúcar com canela que se dissolve preguiçosamente",
+      "authors": "Joyce Galvão",
+      "publishedDate": "1987-01-01",
+      "pageCount": 196,
+      "capalivro": "https://leitura.com.br/image/cache/products/9788592754075-500x500.jpg",
+      "categoria": "1",
+      "email": "mdctuning@gmail.com",
+      "celular": "5531987505298"
+    },
+    {
+      "id_status": 1,
+      "ISBN": "9788576849940",
+      "title": "A Coroa",
+      "description": "Às vezes, se apaixonar é a atitude mais corajosa que alguém pode ter. Em A herdeira, o universo de A Seleção entrou numa nova era. Vinte anos se passaram desde que America Singer e o príncipe Maxon se apaixonaram, e a filha do casal é a primeira princesa a passar por sua própria Seleção. Ela não acreditava que encontraria, tal como seus pais, um amor verdadeiro durante o concurso. Mas alguns candidatos conseguem abrir rachaduras nas muralhas que Eadlyn construiu em volta de si mesma, principalmente de seu coração. Aos poucos, os Selecionados se tornam seu porto seguro, ao mesmo tempo que a fazem enxergar como é a vida fora da bolha em que vive. E ela realmente está precisando: os acontecimentos no palácio obrigam Eadlyn a assumir cada vez mais responsabilidades no governo, e a garota não tem escolha a não ser encarar a rejeição do público. Seu maior desafio é se aproximar do povo, mostrando que se importa e que tem capacidade de governar.",
+      "authors": "Kiera Cass",
+      "publishedDate": "1987-01-01",
+      "pageCount": 196,
+      "capalivro": "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/_aeb0b6ac4593489fb45bd8bf101261bd032ae0c9.jpg",
+      "categoria": "1",
+      "email": "mdctuning@gmail.com",
+      "celular": "5531987505298"
+    },
+    {
+      "status": "Lidos",
       "ISBN": "9788576849940",
       "title": "O Milagre Da Manhã",
       "description": "Conheça o método simples e eficaz que vai proporcionar a vida dos sonhos — antes das 8 horas da manhã! Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional. A mudança de hábitos e a nova rotina matinal proposta por Hal vai proporcionar melhorias significativas na saúde, na felicidade, nos relacionamentos, nas finanças, na espiritualidade ou quaisquer outras áreas que necessitem ser aprimoradas.",
-      "authors": ["Elrod,Hal"],
+      "authors": "Elrod,Hal",
       "publishedDate": "1987-01-01",
       "pageCount": 196,
       "capalivro": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12107927/1008997059.jpg?v=637142244051200000",
@@ -96,103 +154,77 @@
       "celular": "5531987505298"
     },
     {
+      "status": "doacao",
       "ISBN": "9788576849940",
-      "title": "O Milagre Da Manhã",
+      "title": "A Sutil Arte de Ligar o F9da-se",
       "description": "Conheça o método simples e eficaz que vai proporcionar a vida dos sonhos — antes das 8 horas da manhã! Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional. A mudança de hábitos e a nova rotina matinal proposta por Hal vai proporcionar melhorias significativas na saúde, na felicidade, nos relacionamentos, nas finanças, na espiritualidade ou quaisquer outras áreas que necessitem ser aprimoradas.",
-      "authors": ["Elrod,Hal"],
+      "authors": "Mark Manson",
       "publishedDate": "1987-01-01",
       "pageCount": 196,
-      "capalivro": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12107927/1008997059.jpg?v=637142244051200000",
+      "capalivro": "https://leitura.com.br/image/cache/products/9788551002490-500x500.jpg",
       "categoria": "1",
       "email": "mdctuning@gmail.com",
       "celular": "5531987505298"
     },
     {
+      "status": "Quero ler",
+      "indisponivel": 0,
       "ISBN": "9788576849940",
-      "title": "O Milagre Da Manhã",
+      "title": "Jake Livingston vê gente morta",
       "description": "Conheça o método simples e eficaz que vai proporcionar a vida dos sonhos — antes das 8 horas da manhã! Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional. A mudança de hábitos e a nova rotina matinal proposta por Hal vai proporcionar melhorias significativas na saúde, na felicidade, nos relacionamentos, nas finanças, na espiritualidade ou quaisquer outras áreas que necessitem ser aprimoradas.",
-      "authors": ["Elrod,Hal"],
+      "authors": "Douglass Ryan",
       "publishedDate": "1987-01-01",
       "pageCount": 196,
-      "capalivro": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12107927/1008997059.jpg?v=637142244051200000",
+      "capalivro": "https://leitura.com.br/image/cache/products/9788501305657-500x500.jpg",
       "categoria": "1",
       "email": "mdctuning@gmail.com",
       "celular": "5531987505298"
     },
     {
+      "status": "meuslivros",
       "ISBN": "9788576849940",
-      "title": "O Milagre Da Manhã",
+      "title": "O poder do subconsciente",
       "description": "Conheça o método simples e eficaz que vai proporcionar a vida dos sonhos — antes das 8 horas da manhã! Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional. A mudança de hábitos e a nova rotina matinal proposta por Hal vai proporcionar melhorias significativas na saúde, na felicidade, nos relacionamentos, nas finanças, na espiritualidade ou quaisquer outras áreas que necessitem ser aprimoradas.",
-      "authors": ["Elrod,Hal"],
+      "authors": "Elrod,Hal",
       "publishedDate": "1987-01-01",
       "pageCount": 196,
-      "capalivro": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12107927/1008997059.jpg?v=637142244051200000",
-      "categoria": "1",
-      "email": "mdctuning@gmail.com",
-      "celular": "5531987505298"
-    },
-    {
-      "ISBN": "9788576849940",
-      "title": "O Milagre Da Manhã",
-      "description": "Conheça o método simples e eficaz que vai proporcionar a vida dos sonhos — antes das 8 horas da manhã! Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional. A mudança de hábitos e a nova rotina matinal proposta por Hal vai proporcionar melhorias significativas na saúde, na felicidade, nos relacionamentos, nas finanças, na espiritualidade ou quaisquer outras áreas que necessitem ser aprimoradas.",
-      "authors": ["Elrod,Hal"],
-      "publishedDate": "1987-01-01",
-      "pageCount": 196,
-      "capalivro": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12107927/1008997059.jpg?v=637142244051200000",
-      "categoria": "1",
-      "email": "mdctuning@gmail.com",
-      "celular": "5531987505298"
-    },
-    {
-      "ISBN": "9788576849940",
-      "title": "O Milagre Da Manhã",
-      "description": "Conheça o método simples e eficaz que vai proporcionar a vida dos sonhos — antes das 8 horas da manhã! Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional. A mudança de hábitos e a nova rotina matinal proposta por Hal vai proporcionar melhorias significativas na saúde, na felicidade, nos relacionamentos, nas finanças, na espiritualidade ou quaisquer outras áreas que necessitem ser aprimoradas.",
-      "authors": ["Elrod,Hal"],
-      "publishedDate": "1987-01-01",
-      "pageCount": 196,
-      "capalivro": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12107927/1008997059.jpg?v=637142244051200000",
-      "categoria": "1",
-      "email": "mdctuning@gmail.com",
-      "celular": "5531987505298"
-    },
-    {
-      "ISBN": "9788576849940",
-      "title": "O Milagre Da Manhã",
-      "description": "Conheça o método simples e eficaz que vai proporcionar a vida dos sonhos — antes das 8 horas da manhã! Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional. A mudança de hábitos e a nova rotina matinal proposta por Hal vai proporcionar melhorias significativas na saúde, na felicidade, nos relacionamentos, nas finanças, na espiritualidade ou quaisquer outras áreas que necessitem ser aprimoradas.",
-      "authors": ["Elrod,Hal"],
-      "publishedDate": "1987-01-01",
-      "pageCount": 196,
-      "capalivro": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12107927/1008997059.jpg?v=637142244051200000",
-      "categoria": "1",
-      "email": "mdctuning@gmail.com",
-      "celular": "5531987505298"
-    },
-    {
-      "ISBN": "9788576849940",
-      "title": "O Milagre Da Manhã",
-      "description": "Conheça o método simples e eficaz que vai proporcionar a vida dos sonhos — antes das 8 horas da manhã! Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional. A mudança de hábitos e a nova rotina matinal proposta por Hal vai proporcionar melhorias significativas na saúde, na felicidade, nos relacionamentos, nas finanças, na espiritualidade ou quaisquer outras áreas que necessitem ser aprimoradas.",
-      "authors": ["Elrod,Hal"],
-      "publishedDate": "1987-01-01",
-      "pageCount": 196,
-      "capalivro": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12107927/1008997059.jpg?v=637142244051200000",
+      "capalivro": "https://leitura.com.br/image/cache/products/9788546501458-500x500.jpg",
       "categoria": "1",
       "email": "evaldo@teste.com",
       "celular": "5531987505298"
     },
     {
+      "status": "Lidos",
       "ISBN": "9788576849940",
-      "title": "O Milagre Da Manhã",
+      "title": "Por Onde For o teu passo, que lá esteja seu coração",
       "description": "Conheça o método simples e eficaz que vai proporcionar a vida dos sonhos — antes das 8 horas da manhã! Hal Elrod explica os benefícios de acordar cedo e desenvolver todo o nosso potencial e as nossas habilidades. O milagre da manhã permite que o leitor alcance níveis de sucesso jamais imaginados, tanto na vida pessoal quanto profissional. A mudança de hábitos e a nova rotina matinal proposta por Hal vai proporcionar melhorias significativas na saúde, na felicidade, nos relacionamentos, nas finanças, na espiritualidade ou quaisquer outras áreas que necessitem ser aprimoradas.",
-      "authors": ["Elrod,Hal"],
+      "authors": "Pe. Fábio de melo",
       "publishedDate": "1987-01-01",
       "pageCount": 196,
-      "capalivro": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12107927/1008997059.jpg?v=637142244051200000",
+      "capalivro": "https://leitura.com.br/image/cache/products/9788542215496-500x500.jpg",
       "categoria": "1",
       "email": "evaldo@teste.com",
       "celular": "5531987505298"
     }
   ],
-  
+  "status": [
+    {
+      "id": 1,
+      "descricao": "Lido"
+    },
+    {
+      "id": 2,
+      "descricao": "Quero Ler"
+    },
+    {
+      "id": 3,
+      "descricao": "Doação"
+    },
+    {
+      "id": 4,
+      "descricao": "Indisponível"
+    }
+  ],
   "categorias": [
     {
       "id": 1,

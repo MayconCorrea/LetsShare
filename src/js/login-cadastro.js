@@ -3,7 +3,7 @@ const email = document.querySelector('#email');
 const password = document.querySelector('#password');
 const form = document.querySelector('#formLogin');
 const submit = document.querySelector('#submit');
-const URL = 'http://localhost:3000/user';
+const URL = 'https://api-letshare.herokuapp.com/user';
 let user = '';
 let me = '';
 
@@ -35,7 +35,7 @@ form.onsubmit = async (e) => {
         newUser()
     }
         
-    let validate = await validateUserLogin({email: email.value, password: password.value})
+    validate = await validateUserLogin({email: email.value, password: password.value})
 };
 
 const validateUserLogin = async ({email, password}) => {

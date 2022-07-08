@@ -1,6 +1,11 @@
 /*    --------------------------------------------------
 	:: General
 	-------------------------------------------------- */
+
+  .glyphicon-time:hover {
+    color: red; 
+  }
+
     body {
         font-family: 'Open Sans', sans-serif;
         color: #353535;
@@ -126,7 +131,7 @@
         font-size: .8em;
         margin-right: 20px;
     }
-    .table-filter .media .title span.lidos {
+    .table-filter .media .title span.Lidos {
         color: #5cb85c;
     }
     .table-filter .media .title span.Queroler {

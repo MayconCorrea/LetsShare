@@ -13,7 +13,7 @@ async function exibeFilmesEmDestaque() {
 
 	// let dados = JSON.parse(this.responseText);
 // let dados = await fetch(`http://localhost:3000/livros?categoria=${id_categorias}`).then( resp => resp.json() )
-let dados = await fetch(`http://localhost:3000/livros`).then( resp => resp.json() )
+let dados = await fetch('https://api-letshare.herokuapp.com/livros').then( resp => resp.json() )
 	dados.map(value => {		
 		texto += `
 		<p></p>
@@ -62,7 +62,8 @@ let dados = await fetch(`http://localhost:3000/livros`).then( resp => resp.json(
 
 async function carregaGeneros() {
 	let selectGenero = document.getElementById("destaque-categorias")
-	let dados = await fetch("http://localhost:3000/categorias").then( resp => resp.json() )
+	// let dados = await fetch("http://localhost:3000/categorias").then( resp => resp.json() )
+	let dados = await fetch('https://api-letshare.herokuapp.com/categorias').then( resp => resp.json() )
 	let texto = '';
 	dados.map(value => {
 		const option = document.createElement('option');
